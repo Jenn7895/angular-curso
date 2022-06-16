@@ -1,0 +1,36 @@
+
+
+<h1>Dragon Ball Z</h1>
+<hr>
+
+
+<div class="row">
+
+    <div class="col">
+                <!--pesonajes.component  main-page.component-->
+                <!--     [personajes]   =   "personajes" -->
+        <!-- <app-personajes [personajes]="personajes"> -->
+            <!--Valor del input de pesonajes.component.ts -->
+        <!-- <app-personajes [data]="personajes">     -->
+        <!-- </app-personajes> -->
+        <app-personajes></app-personajes>
+    </div>
+
+    <div class="col">
+        <!--agregar.component  main-page.component-->
+        <!-- [personajes]   =     "personajes" -->
+        <!-- [nuevo]        =       "nuevo" -->
+        <!-- <app-agregar
+            [personajes]="personajes" //propiedad definida con el objetivo de practicar
+            [nuevo]="nuevo"
+        ></app-agregar> -->
+
+        <!-- <app-agregar
+            [nuevo]="nuevo"
+            (onNuevoPersonaje)="agregarNuevoPersonaje( $event )"
+        ></app-agregar> -->
+
+        <app-agregar [nuevo]="nuevo" ></app-agregar>
+    </div>
+
+</div>
